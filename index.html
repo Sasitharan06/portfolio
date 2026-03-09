@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sasitharan M.S | AI & DS Developer Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Sasitharan M.S — B.Tech AI & Data Science student, Full-Stack developer, and AI/ML enthusiast. Explore projects, certifications, and achievements." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+    <!-- Three.js Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-logo">S<span class="accent">.</span>M<span class="accent">.</span>S</div>
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certs</a>
+            <a href="#achievements">Achieve</a>
+            <a href="#tools">Tools</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- ===== HERO SECTION ===== -->
+        <section id="hero" class="section">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">
+                    <span class="name-line">SASITHARAN</span>
+                    <span class="name-line accent-text">M.S</span>
+                </h1>
+                <div class="hero-tagline">
+                    <span id="typed-text"></span><span class="cursor">|</span>
+                </div>
+                <p class="hero-subtitle">B.Tech — Artificial Intelligence & Data Science</p>
+                <p class="hero-college">Sri Eshwar College of Engineering | CGPA: 8.19</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll to explore</p>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section id="about" class="section">
+            <div class="section-container">
+                <h2 class="section-title"><span class="title-number">01.</span> About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text glass-card">
+                        <p>I'm a passionate <strong>AI & Data Science</strong> student building intelligent systems that
+                            solve real-world problems. From <strong>computer vision</strong> to <strong>full-stack
+                                development</strong>, I love creating end-to-end solutions.</p>
+                        <p>With <strong>1300+ problems solved</strong> on coding platforms and a strong foundation in
+                            Machine Learning, I thrive at the intersection of AI and software engineering.</p>
+                    </div>
+                    <div class="education-cards">
+                        <div class="edu-card glass-card" data-animate>
+                            <div class="edu-icon">🎓</div>
+                            <h3>B.Tech — AI & DS</h3>
+                            <p>Sri Eshwar College of Engineering</p>
+                            <span class="edu-score">CGPA: 8.19</span>
+                            <span class="edu-year">2024 – 2028</span>
+                        </div>
+                        <div class="edu-card glass-card" data-animate>
+                            <div class="edu-icon">📚</div>
+                            <h3>HSC</h3>
+                            <p>Thiagarajar Higher Secondary School</p>
+                            <span class="edu-score">92.5%</span>
+                            <span class="edu-year">2022 – 2024</span>
+                        </div>
+                        <div class="edu-card glass-card" data-animate>
+                            <div class="edu-icon">📖</div>
+                            <h3>SSLC</h3>
+                            <p>Thiagarajar Higher Secondary School</p>
+                            <span class="edu-score">89.6%</span>
+                            <span class="edu-year">2021 – 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section id="projects" class="section">
+            <div class="section-container">
+                <h2 class="section-title"><span class="title-number">02.</span> Projects</h2>
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card" data-tilt>
+                        <div class="project-header">
+                            <div class="project-icon">📦</div>
+                            <div class="project-links">
+                                <a href="https://github.com/sasitharan06" target="_blank" title="GitHub">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">TrackIT</h3>
+                        <p class="project-desc">Expiry Tracking & Predictive Analysis System</p>
+                        <p class="project-detail">Built a full-stack web application for real-time expiry tracking of
+                            packed and medical products using barcode scanning & OCR-based label extraction. Designed
+                            the frontend with Next.js and managed customer and product data using MongoDB.</p>
+                        <ul class="project-highlights">
+                            <li>Integrated OpenCV and Tesseract OCR for accurately extracting expiry dates from product
+                                packaging</li>
+                            <li>Used Pandas and Matplotlib to analyze expiry trends and provide predictive insights for
+                                sellers</li>
+                            <li>Added a chatbot feature to assist customers with expiry queries, return policies, and
+                                product safety</li>
+                            <li>Personalized expiry alerts and return facilitation linked to each customer's contact
+                            </li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>MongoDB</span>
+                            <span>Pandas</span>
+                            <span>OpenCV</span>
+                            <span>Tesseract OCR</span>
+                            <span>Matplotlib</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card" data-tilt>
+                        <div class="project-header">
+                            <div class="project-icon">👁️</div>
+                            <div class="project-links">
+                                <a href="https://github.com/sasitharan06" target="_blank" title="GitHub">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Face Attendance System</h3>
+                        <p class="project-desc">Live Face Attendance Tracking using AI</p>
+                        <p class="project-detail">Developed a real-time AI-based face attendance tracking system using
+                            Python to automate and secure attendance logging in classrooms and offices. Integrated
+                            OpenCV and a pre-trained face recognition model to detect and recognize multiple faces from
+                            a live webcam feed with high accuracy.</p>
+                        <ul class="project-highlights">
+                            <li>Used NumPy and Pandas to process attendance logs and generate daily/monthly reports</li>
+                            <li>Stores user data and attendance records in a lightweight SQLite database</li>
+                            <li>User-friendly GUI for admin control, new user registration, and attendance visualization
+                            </li>
+                            <li>Spoof prevention by checking for live face detection cues</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Face Recognition</span>
+                            <span>NumPy</span>
+                            <span>Pandas</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card" data-tilt>
+                        <div class="project-header">
+                            <div class="project-icon">♻️</div>
+                            <div class="project-links">
+                                <a href="https://github.com/sasitharan06" target="_blank" title="GitHub">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Smart Waste Segregation</h3>
+                        <p class="project-desc">AI-Powered Waste Classification System</p>
+                        <p class="project-detail">Developed an AI-powered waste segregation system to automatically
+                            classify solid waste into categories such as plastic, metal, and organic using image
+                            processing and machine learning. Utilized OpenCV for image preprocessing and a trained deep
+                            learning model built with TensorFlow and Scikit-learn.</p>
+                        <ul class="project-highlights">
+                            <li>Integrated into a Streamlit-based web interface for interactive visualization and
+                                testing</li>
+                            <li>Implemented data handling and model evaluation using NumPy and Pandas</li>
+                            <li>Promotes environmental sustainability by enabling automated waste management</li>
+                            <li>Real-time waste classification with high accuracy and efficiency in prediction</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>OpenCV</span>
+                            <span>Scikit-learn</span>
+                            <span>Streamlit</span>
+                            <span>NumPy</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CERTIFICATIONS SECTION ===== -->
+        <section id="certifications" class="section">
+            <div class="section-container">
+                <h2 class="section-title"><span class="title-number">03.</span> Certifications</h2>
+                <div class="timeline">
+                    <div class="timeline-item glass-card" data-animate>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2025</span>
+                            <h3>Machine Learning Course</h3>
+                            <p>NSDC (National Skill Development Corporation)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item glass-card" data-animate>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2025</span>
+                            <h3>SQL (Basics)</h3>
+                            <p>Online Certification</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item glass-card" data-animate>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2024</span>
+                            <h3>Basics in C</h3>
+                            <p>Great Learning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ACHIEVEMENTS SECTION ===== -->
+        <section id="achievements" class="section">
+            <div class="section-container">
+                <h2 class="section-title"><span class="title-number">04.</span> Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card glass-card" data-animate>
+                        <div class="achievement-glow"></div>
+                        <div class="achievement-icon">🏆</div>
+                        <h3>Top 50 — Skillrack</h3>
+                        <p>College level — 2024</p>
+                    </div>
+                    <div class="achievement-card glass-card" data-animate>
+                        <div class="achievement-glow"></div>
+                        <div class="achievement-icon">🏅</div>
+                        <h3>National Level Runner</h3>
+                        <p>Non-tech events at PSG Tech College — 2024</p>
+                    </div>
+                    <div class="achievement-card glass-card" data-animate>
+                        <div class="achievement-glow"></div>
+                        <div class="achievement-icon">⭐</div>
+                        <h3>HSC Top 3</h3>
+                        <p>Highest cutoff in school level</p>
+                    </div>
+                </div>
+
+                <!-- Coding Profiles -->
+                <h2 class="section-title sub-title"><span class="title-number">04.1</span> Coding Profiles</h2>
+                <div class="coding-profiles">
+                    <a href="https://leetcode.com/u/sasitharan06/" target="_blank" class="profile-card glass-card"
+                        data-animate>
+                        <div class="profile-icon">💻</div>
+                        <h3>LeetCode</h3>
+                        <div class="profile-stats">
+                            <span class="stat"><strong>250+</strong> Solved</span>
+                            <span class="stat">Rating: <strong>1557</strong></span>
+                            <span class="stat">Global Rank: <strong>251,662</strong></span>
+                        </div>
+                    </a>
+                    <a href="https://www.hackerrank.com/profile/Sasi_tharan" target="_blank"
+                        class="profile-card glass-card" data-animate>
+                        <div class="profile-icon">🌟</div>
+                        <h3>HackerRank</h3>
+                        <div class="profile-stats">
+                            <span class="stat">2⭐ C++</span>
+                            <span class="stat">3⭐ C</span>
+                            <span class="stat">4⭐ MySQL</span>
+                        </div>
+                    </a>
+                    <a href="https://www.skillrack.com/faces/resume.xhtml?id=514535&key=1d965e1ef1de81321c6e92dce2dbe4646135733c"
+                        target="_blank" class="profile-card glass-card" data-animate>
+                        <div class="profile-icon">🔥</div>
+                        <h3>SkillRack</h3>
+                        <div class="profile-stats">
+                            <span class="stat"><strong>1300+</strong> Problems Solved</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TOOLS SECTION ===== -->
+        <section id="tools" class="section">
+            <div class="section-container">
+                <h2 class="section-title"><span class="title-number">05.</span> Skills & Tools</h2>
+                <div class="skills-categories">
+
+                    <div class="skill-category glass-card" data-animate>
+                        <h3><span class="cat-icon">⚡</span> Programming</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag" data-level="advanced">Python</span>
+                            <span class="skill-tag" data-level="advanced">C++</span>
+                            <span class="skill-tag" data-level="intermediate">C</span>
+                            <span class="skill-tag" data-level="intermediate">Java</span>
+                            <span class="skill-tag" data-level="intermediate">HTML</span>
+                            <span class="skill-tag" data-level="intermediate">CSS</span>
+                            <span class="skill-tag" data-level="intermediate">MySQL</span>
+                            <span class="skill-tag" data-level="advanced">Data Structures</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card" data-animate>
+                        <h3><span class="cat-icon">🤖</span> AI & ML</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag" data-level="advanced">Machine Learning</span>
+                            <span class="skill-tag" data-level="advanced">TensorFlow</span>
+                            <span class="skill-tag" data-level="advanced">OpenCV</span>
+                            <span class="skill-tag" data-level="intermediate">Scikit-learn</span>
+                            <span class="skill-tag" data-level="intermediate">NumPy</span>
+                            <span class="skill-tag" data-level="intermediate">Pandas</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card" data-animate>
+                        <h3><span class="cat-icon">🌐</span> Full Stack</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag" data-level="advanced">MERN Stack</span>
+                            <span class="skill-tag" data-level="intermediate">Next.js</span>
+                            <span class="skill-tag" data-level="intermediate">MongoDB</span>
+                            <span class="skill-tag" data-level="intermediate">Streamlit</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card" data-animate>
+                        <h3><span class="cat-icon">🛠️</span> Dev Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag" data-level="intermediate">Git</span>
+                            <span class="skill-tag" data-level="intermediate">GitHub</span>
+                            <span class="skill-tag" data-level="intermediate">VS Code</span>
+                            <span class="skill-tag" data-level="intermediate">PyCharm</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact" class="section">
+            <div class="section-container">
+                <h2 class="section-title"><span class="title-number">06.</span> Get In Touch</h2>
+                <div class="contact-layout">
+
+                    <!-- Contact Form -->
+                    <form class="contact-form glass-card" data-animate id="contactForm">
+                        <h3 class="form-heading">Send me a message</h3>
+                        <!-- Web3Forms Config -->
+                        <input type="hidden" name="access_key" value="186b39b8-b52b-43d9-a80e-ad2b57ae2fff" />
+                        <input type="hidden" name="subject" value="New Portfolio Contact Message" />
+                        <input type="hidden" name="from_name" value="Portfolio Contact Form" />
+                        <input type="checkbox" name="botcheck" style="display: none;" />
+                        <div class="form-group">
+                            <label for="contact-name">Your Name</label>
+                            <input type="text" id="contact-name" name="name" placeholder="John Doe" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Your Email</label>
+                            <input type="email" id="contact-email" name="email" placeholder="john@example.com"
+                                required />
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-phone">Phone Number</label>
+                            <input type="tel" id="contact-phone" name="phone" placeholder="+91 XXXXXXXXXX" />
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Your Message</label>
+                            <textarea id="contact-message" name="message" rows="5"
+                                placeholder="Hi Sasitharan, I'd like to talk about..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 2L11 13" />
+                                <path d="M22 2L15 22L11 13L2 9L22 2Z" />
+                            </svg>
+                        </button>
+                        <p class="form-status" id="formStatus"></p>
+                    </form>
+
+                    <!-- Social Links Sidebar -->
+                    <div class="contact-info">
+                        <div class="info-card glass-card" data-animate>
+                            <div class="info-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:sasitharan.ms2024aids@sece.ac.in">sasitharan.ms2024aids@sece.ac.in</a>
+                            </div>
+                        </div>
+                        <div class="info-card glass-card" data-animate>
+                            <div class="info-icon">📱</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+917904981173">+91 7904981173</a>
+                            </div>
+                        </div>
+                        <a href="https://github.com/sasitharan06" target="_blank" class="social-link glass-card"
+                            data-animate>
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sasi-tharan-sivakumar-23312a328/" target="_blank"
+                            class="social-link glass-card" data-animate>
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.instagram.com/sasi_thoughts?igsh=MTdjNnU1eHdxNjFzZw==" target="_blank"
+                            class="social-link glass-card" data-animate>
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <footer>
+                <p>Designed & Built by <strong>Sasitharan M.S</strong> &copy; 2025</p>
+            </footer>
+        </section>
+
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
