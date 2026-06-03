@@ -363,9 +363,10 @@ const typedElement = document.getElementById('typed-text');
 const phrases = [
   'AI & ML Enthusiast',
   'Full-Stack Developer',
-  'Problem Solver',
+  'MERN Stack Intern',
   'Computer Vision Explorer',
-  '1300+ Problems Solved',
+  '1300+ SkillRack Problems',
+  '300+ LeetCode Problems',
 ];
 let phraseIndex = 0;
 let charIndex = 0;
